@@ -1,15 +1,9 @@
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+package 字符串;
+
 import java.util.StringJoiner;
 
-public class debug {
-    public static void main(String[] args) {
-        String s = "  the sky is blue";
-        System.out.println(reverseWords(s));
-    }
-
-    public static String reverseWords(String s) {
+public class 翻转字符串里的单词 {
+    public String reverseWords(String s) {
 
         String[] words = s.split("\\s+");
 
