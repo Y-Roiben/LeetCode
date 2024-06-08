@@ -1,5 +1,6 @@
 package 栈;
 
+import java.util.Deque;
 import java.util.Stack;
 
 class MyQueue {
@@ -75,7 +76,7 @@ class MyQueue2 {
 }
 
 public class 用栈实现队列 {
-
+    Deque<Integer> stack1;
 //    public static void main(String[] args) {
 //        MyQueue queue = new MyQueue();
 //        queue.push(1);
