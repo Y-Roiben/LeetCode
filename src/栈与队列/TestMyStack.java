@@ -1,7 +1,4 @@
-package 栈;
-
-import java.util.Queue;
-import java.util.Stack;
+package 栈与队列;
 
 public class TestMyStack {
     public static void main(String[] args) {

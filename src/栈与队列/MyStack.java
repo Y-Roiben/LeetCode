@@ -1,6 +1,4 @@
-package 栈;
-
-import java.time.Period;
+package 栈与队列;
 
 @SuppressWarnings("unchecked")
 public class MyStack<v> {
