@@ -1,9 +1,6 @@
 package 栈与队列;
 
-import java.util.Arrays;
-import java.util.Deque;
-import java.util.Hashtable;
-import java.util.LinkedList;
+import java.util.*;
 
 // 单调队列
 class MyQueue3{
