@@ -5,34 +5,34 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-class Node {
+class Node2 {
     public int val;
-    public List<Node> children;
+    public List<Node2> children;
 
-    public Node() {}
+    public Node2() {}
 
-    public Node(int _val) {
+    public Node2(int _val) {
         val = _val;
     }
 
-    public Node(int _val, List<Node> _children) {
+    public Node2(int _val, List<Node2> _children) {
         val = _val;
         children = _children;
     }
 }
 
 public class N叉树层序遍历 {
-    public List<List<Integer>> levelOrder(Node root) {
+    public List<List<Integer>> levelOrder(Node2 root) {
         List<List<Integer>> res = new ArrayList<>();
         if (root == null) return res;
-        Queue<Node> queue = new LinkedList<>();
+        Queue<Node2> queue = new LinkedList<>();
         queue.add(root);
         int size;
         while (!queue.isEmpty()) {
             size = queue.size();
             List<Integer> list = new ArrayList<>();
             while (size > 0) {
-                Node node = queue.poll();
+                Node2 node = queue.poll();
                 size--;
                 list.add(node.val);
                 if (node.children != null) queue.addAll(node.children);
