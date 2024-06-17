@@ -46,6 +46,7 @@ public class 路径总和 {
 
     boolean traverse(TreeNode node, int target){
         if (node.left == null && node.right == null) {
+            // 遇到叶子节点
             return (target - node.val) == 0;
         }
         int i = target - node.val;
