@@ -2,7 +2,6 @@ package 二叉树;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.StringJoiner;
 
 public class 路径总和 {
     public boolean hasPathSum(TreeNode root, int targetSum) {

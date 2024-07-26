@@ -1,7 +1,6 @@
 package 回溯;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class 全排列II {
     private final List<List<Integer>> res = new ArrayList<>();

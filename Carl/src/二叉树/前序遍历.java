@@ -2,7 +2,6 @@ package 二叉树;
 
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class 前序遍历 {

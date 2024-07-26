@@ -1,10 +1,5 @@
 package 二叉树;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
-
 public class 对称二叉树 {
     public boolean isSymmetric(TreeNode root) {
         if (root == null) return true;
